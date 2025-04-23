@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeteoWeb</title>
+    <link rel="icon" href="img/906329.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="weather-alert" id="weatherAlert"></div>
+
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="img/906329.png" alt="Logo MeteoWeb">
+            </div>
+            <div class="site-name">MeteoWeb</div>
+        </div>
+
+        <div class="header-center">
+            <input type="text" id="city" placeholder="Local" />
+            <button id="getWeather"><span class="lupa">🔍</span></button>
+        </div>
+
+            <!-- Exibe clima de 3 cidades famosas -->
+<div class="weather-cities">
+    <div class="city" id="city1">
+        <p><strong></strong></p>
+        <div id="weather1"></div>
+    </div>
+    <div class="city" id="city2">
+        <p><strong></strong></p>
+        <div id="weather2"></div>
+    </div>
+    <div class="city" id="city3">
+        <p><strong></strong></p>
+        <div id="weather3"></div>
+    </div>
+</div>
+    </header>
+
+
+
+    <main class="container">
+        <div id="weatherInfo"></div>
+    </main>
+
+    <div class="weekly-forecast">
+        <div id="forecastTitle" style="display: none;">
+            <h2>Previsão para a Semana:</h2>
+        </div>
+        <div id="forecastTable"></div>
+    </div>
+
+    <div id="message-box"></div>
+
+
+
+
+
+
+    <footer>
+        <p><a href="https://www.instagram.com/">Instagram</a></p>
+        <p><a href="https://workspace.google.com/intl/pt-BR/gmail/">Gmail</a></p>
+        <p><a href="https://www.whatsapp.com/?lang=pt_BR">WhatsApp</a></p>
+        <p>&copy; 2025 MeteoWeb - Todos os direitos reservados.</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
